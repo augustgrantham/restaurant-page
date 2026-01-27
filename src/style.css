@@ -1,0 +1,37 @@
+body {
+    background-color:#FFFCF7;
+    font-family: monospace;
+    color:#394047;
+    display:grid;
+    grid-template-rows:1fr 3fr;
+    justify-items: center;
+    align-items: center;
+}
+
+nav {
+    margin-top:1vh;
+}
+
+input[type = "button"] {
+    font-size: 25px;
+    margin-right:20px;
+    background-color: #C2D8B9;
+}
+#content {
+    width:350px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:15px;
+
+}
+#content img {
+    width:300px;
+    align-self: center;
+}
+
+h1 {
+    margin-top:0;
+}
+
