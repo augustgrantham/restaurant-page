@@ -15,8 +15,13 @@ nav {
 input[type = "button"] {
     font-size: 25px;
     margin-right:20px;
-    border-radius: 3px;
+    border-radius: 4px;
+    border-width: thin;
     background-color: #C2D8B9;
+}
+input[type = "button"]:hover {
+    transition-duration: 500ms;
+    background-color: #e4ffda;
 }
 #content {
     width:350px;
