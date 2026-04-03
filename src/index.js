@@ -3,6 +3,7 @@ import "./style.css";
 import loadHome from "./initial-page-load";
 import loadAbout from "./about-page";
 import clearPage from "./clear-page";
+import loadMenu from "./menu.js";
 //template elements
 let homeBtn = document.getElementById("home");
 let menuBtn = document.getElementById("menu");
@@ -15,6 +16,10 @@ aboutBtn.addEventListener("click", () => {
 homeBtn.addEventListener("click", () => {
     clearPage();
     loadHome(); 
+});
+menuBtn.addEventListener("click", () => {
+    clearPage();
+    loadMenu(); 
 });
 console.log("I work!");
 

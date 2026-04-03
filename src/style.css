@@ -9,6 +9,10 @@ body {
     align-items: center;
 }
 
+body img {
+    max-width: 1080px;
+}
+
 nav {
     margin-top:1vh;
 }
@@ -43,3 +47,14 @@ h1 {
     text-align:center;
 }
 
+.itemDiv {
+    margin:10px;
+    width:400px;
+    border: 2px solid #a79c8f; 
+    border-radius:4px;
+    display:grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
