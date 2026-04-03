@@ -1,10 +1,11 @@
-//element initialization 
+//load images
+import peachyMan from "./peach.png";
+export default function loadHome() { 
+    //element initialization 
 let header = document.createElement("h1");
 let peachImg = document.createElement("img");
 let infoP = document.createElement("p");
 
-//load images
-import peachyMan from "./peach.png";
 //grab prexisting div
 let contentDiv = document.getElementById("content");
 //assign values to elements
@@ -16,3 +17,4 @@ contentDiv.append(header);
 contentDiv.append(peachImg);
 contentDiv.append(infoP);
 
+}
